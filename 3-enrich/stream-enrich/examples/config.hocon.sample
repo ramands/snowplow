@@ -31,7 +31,7 @@ enrich {
       # Stream/topic where the event that failed enrichment will be stored
       bad = {{outBad}}
       bad = ${?ENRICH_STREAMS_OUT_BAD}
-      # Stream/topic where the pii tranformation events will end up
+      # Stream/topic where the pii transformation events will end up
       pii = {{outPii}}
       pii = ${?ENRICH_STREAMS_OUT_PII}
 
